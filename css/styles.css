@@ -475,6 +475,10 @@ header .conteanir {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.social-box-footer {
+  width: 40px;
+  height: 40px;
+}
 .social-icon-one{
   width: 100px;
   height: 100px;
