@@ -457,29 +457,18 @@ header .conteanir {
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  
-}
-.social-icon-footer {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
   margin-top: 16px;
-}
-.social-media {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-.social-box-footer {
   width: 40px;
   height: 40px;
 }
-.social-icon-one{
+.social-icon-footer-one {
   width: 100px;
   height: 100px;
+  margin-top: 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-box-footer {
+  /* width: 40px;
+  height: 40px; */
 }
