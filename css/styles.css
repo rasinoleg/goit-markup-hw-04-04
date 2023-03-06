@@ -71,7 +71,6 @@ cursor {
   background: var(--cloud);
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
 .section-five {
   padding-top: 130px;
@@ -117,9 +116,6 @@ cursor {
   padding-bottom: 32px;
   background-color: var(--white);
 }
-/* .professional-social-item {
-  
-} */
 .professional-social-link {
   display: flex;
   align-items: center;
@@ -130,9 +126,6 @@ cursor {
 
   background-color: var(--iris);
 }
-/* .professional-social-icon {
-
-} */
 .rectangle-one {
   display: flex;
   align-items: center;
@@ -450,89 +443,39 @@ header .conteanir {
   text-transform: uppercase;
   color: var(--iris);
 }
-.footer-social{
-  width: 208px;
-height: 80px;
+.footer-conteanir {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: var(--white);
+  gap: 120px;
 }
-.social-link-footer{
+.social-link-footer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-}
-.social-box-footer{
-  display: contents;
-  align-items: center;
-  justify-content: center;
-  width: 208px;
-height: 80px;
-
-}
-.social-icon-footer{
-  width:24px;
-height:24px;
-border-radius: 50%;
-background: rgba(255, 255, 255, 0.1);
-}
-.social-link-footer-one{
   
 }
-/* .footer-social{
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-}
-.social-link-footer{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 16px;
-  width: 208px;
-height: 40px;
-  
-}
-.social-icon-footer{
-  Width:24px;
-Height:24px;
-} */
-/* .social-link-footer-one{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-
-.social-box-footer{
-  /* display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px;
-  gap: 32px; */
-}
-/* .social-icon-footer{
-width: 24px;
-  height: 24px; 
+.social-icon-footer {
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-margin-top: 24px;
-background: rgba(255, 255, 255, 0.1);
-} */
-/* .social-link-footer{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  
-} */
-/* .footer-social{
-  display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 16px;
 }
-.social-media{
-  
-} */
+.social-media {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.social-icon-one{
+  width: 100px;
+  height: 100px;
+}
