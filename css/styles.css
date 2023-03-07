@@ -6,6 +6,7 @@
   --slate: #434455;
   --cornflower: #e7e9fc;
   --white: #ffffff;
+  --ocean: #404bbf;
 }
 h1,
 h2,
@@ -43,11 +44,6 @@ cursor {
   background: #404bbf;
   border-color: #404bbf;
 }
-.button-text:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  /* border-radius: 4px; */
-}
 .professions {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -66,6 +62,9 @@ cursor {
 .button-one:focus {
   background: #404bbf;
 }
+.professional-social-link:hover {
+  background-color: var(--ocean);
+}
 .section-one {
   background: var(--navyblue);
   padding-top: 188px;
@@ -75,6 +74,7 @@ cursor {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office\ 1.jpg);
+  background-repeat: none;
 }
 .address {
   margin-left: auto;
@@ -98,8 +98,6 @@ cursor {
 .social-item {
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
 }
 .social-box {
   display: flex;
@@ -110,17 +108,18 @@ cursor {
 .social-icon {
   width: 168px;
   height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
   fill: currentColor;
 }
 .social-link {
   color: #8e8f99;
 }
-.social-link:hover,
-.social-link:focus {
+.social-icon:hover,
+.social-icon:focus {
   color: #404bbf;
   border-color: #404bbf;
 }
-
 .customers {
   font-family: "Roboto";
   font-style: normal;
@@ -149,7 +148,6 @@ cursor {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-
   background-color: var(--iris);
 }
 .rectangle-one {
@@ -188,11 +186,11 @@ cursor {
   display: flex;
   gap: 24px;
 }
-/* .professions {
+.professions {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-} */
+}
 .list-markers {
   list-style-type: none;
 }
@@ -372,6 +370,8 @@ header .conteanir {
   color: #4d5ae5;
   background: #f4f4fd;
   cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button-one {
   font-family: "Roboto";
